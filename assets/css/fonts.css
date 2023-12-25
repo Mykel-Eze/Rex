@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MTNBrighterSans';
+    src: url("../fonts/MTNBrighterSans/MTNBrighterSans-Regular.otf");
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Bold';
+    src: url("../fonts/MTNBrighterSans/MTNBrighterSans-Bold.otf");
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-xBold';
+    src: url("../fonts/MTNBrighterSans/MTNBrighterSans-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Light';
+    src: url("../fonts/MTNBrighterSans/MTNBrighterSans-Light.otf");
+}
+
+@font-face {
+    font-family: 'MTNBrighterSans-Medium';
+    src: url("../fonts/MTNBrighterSans/MTNBrighterSans-Medium.otf");
+}
