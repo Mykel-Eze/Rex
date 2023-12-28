@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default {
+  ssr: false,
   target: 'static',
   devtools: { enabled: false },
   postcss: {
@@ -27,6 +28,7 @@ export default {
           name: 'Keywords',
           content: 'Rex, Real Estate Xplorer, Real Estate, Development Company',
         },
+        { name: 'theme-color', content: '#1E50D1' },
       ],
     },
   },
