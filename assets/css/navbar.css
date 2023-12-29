@@ -34,6 +34,7 @@ nav.main-nav ul>li>a {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    outline: none !important;
 }
 
 nav.main-nav ul>li>a:hover,

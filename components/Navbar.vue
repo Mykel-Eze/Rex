@@ -27,7 +27,8 @@
                         <li>
                             <a href="#!" class="dropdown-trigger flex-div" data-target="about-us-dropdown" @click="scrollToTop()">
                                 <span>About Us</span>
-                                <img src="~/assets/images/arrow-down.svg" alt="arrow-down" class="arrow-down">
+                                <!-- <img src="~/assets/images/arrow-down.svg" alt="arrow-down" class="arrow-down"> -->
+                                <ArrowDownIcon />
                             </a>
 
                              <!-- Dropdown Structure -->
@@ -177,3 +178,13 @@ export default {
 </script>
 
 <style scoped src="~/assets/css/navbar.css"></style>
+
+<style>
+    nav.main-nav.scrolled-nav ul>li>a svg path, 
+    nav.main-nav.nav-2 ul>li>a svg path {
+        stroke: #1A242D;
+    }
+    nav.main-nav.scrolled-nav ul>li>a:hover svg path {
+        stroke: var(--pry-color);
+    }
+</style>
