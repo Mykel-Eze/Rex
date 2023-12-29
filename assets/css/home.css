@@ -22,7 +22,7 @@ section#landing-section::before {
     background-repeat: no-repeat;
 }
 
-section#landing-section .row {
+section > .row {
     margin-bottom: 0;
 }
 
@@ -35,7 +35,9 @@ section#landing-section .carousel-item .home-content-wrapper {
     gap: 20px;
     align-items: center;
 }
-.home-txt-wrapper {}
+.home-txt-wrapper {
+    position: relative;
+}
 
 h1.home-txt-title {
     font-size: 64px;
@@ -220,3 +222,183 @@ img.solar-pump-farm.full-width {
 }
 
 /**** end of Landing-Section Styles ****/
+
+
+/**** About-Section Styles ****/
+section#about {
+    position: relative;
+    padding: 100px 0 60px;
+    background: #F3F1F1;
+    z-index: 1;
+}
+.about-content-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+span.section-title-bar {
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: var(--sec-color);
+    margin-bottom: 5px;
+}
+.section-title {
+    font-size: 48px;
+    font-family: var(--font-bold);
+    color: var(--pry-color);
+}
+.section-sub-title {
+    font-size: 48px;
+    line-height: 1;
+    font-family: var(--font-bold);
+}
+.section-desc-txt {
+    color: #2E2E2E;
+    font-size: 24px;
+}
+a.learn-more-btn {
+    display: block;
+    border-radius: 5px;
+    background: var(--pry-color);
+    color: white;
+    width: 232px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+img.about-img {
+    position: absolute;
+    width: 42%;
+    right: 0;
+    top: 60px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/**** end of About-Section Styles ****/
+
+/**** Services-Section Styles ****/
+section#services {
+    position: relative;
+    padding: 80px 0 80px;
+    background-color: #F3F1F1;
+    background-image: url(../images/services-bg.jpg);
+    background-size: cover;
+}
+section#services::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F1F1;
+    top: -20px;
+    left: 0;
+    z-index: 0;
+    position: relative;
+}
+.services-block-wrapper {
+    float: left;
+    margin-top: 70px;
+}
+.services-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 25px;
+    border: 1.25px solid rgba(0, 102, 245, 0.12);
+    background: #FFF;
+    box-shadow: 0px 15px 26px 12px rgba(4, 30, 139, 0.05);
+    padding: 40px;
+    width: 65%;
+    overflow: hidden;
+}
+.services-block.block-1 {
+    float: left;
+}
+.services-block.block-2 {
+    background-color: var(--pry-color);
+    color: white;
+    float: right;
+    position: relative;
+    margin-top: -20%;
+}
+.services-block.block-2 .section-desc-txt {
+    color: white;
+}
+.services-block .section-desc-txt {
+    max-width: 50%;
+}
+.services-block img.bg-icon {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/**** end of Services-Section Styles ****/
+
+/**** Our-Projects-Section Styles ****/
+section#our-porjects {
+    padding: 140px 0 100px;
+}
+.our-projects-wrapper {
+    position: relative;
+}
+.sub-title-2 {
+    font-family: var(--font-bold);
+    font-size: 24px;
+    color: var(--sec-color);
+}
+.our-projects-txt-side {
+    border-radius: 8px;
+    background: rgba(255, 200, 77, 0.20);
+    box-shadow: 9px 8px 7.9px 10px rgba(0, 0, 0, 0.05);
+    padding: 60px 80px 60px 60px;
+    max-width: 60%;
+}
+.our-projects-txt-side .section-sub-title {
+    margin-bottom: 16px;
+}
+.our-projects-txt-side .section-desc-txt {
+    margin: 30px 0;
+    width: 90%;
+}
+a.more-projects-btn {
+    border-radius: 5px;
+    background: var(--sec-color);
+    display: block;
+    width: 230px;
+    height: 62px;
+    line-height: 62px;
+    color: #000;
+    font-size: 18px;
+    font-family: var(--font-bold);
+    text-align: center;
+}
+.our-projects-img-side > img {
+    position: absolute;
+    width: 30%;
+}
+img.op-img-1 {
+    right: 15%;
+    top: -20px;
+    z-index: 2;
+}
+img.op-img-2 {
+    right: 10%;
+    bottom: 20px;
+    z-index: 1;
+}
+img.op-img-3 {
+    right: 0;
+    top: -40px;
+    z-index: 0;
+}
+/**** end of Our-Projects-Section Styles ****/
