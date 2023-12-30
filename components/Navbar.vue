@@ -12,8 +12,7 @@
                     <ul id="nav-mobile-2" class="dn-mobile ul-nav">
                         <li>
                             <a href="#" data-target="slide-out" class="sidenav-trigger sec-color right">
-                                <img src="~/assets/images/menu.svg" alt="menu" class="white-img">
-                                <img src="~/assets/images/menu-blue.svg" alt="menu" class="colored-img">
+                                <MenuIcon />
                             </a>
                         </li>
                     </ul>
@@ -27,33 +26,32 @@
                         <li>
                             <a href="#!" class="dropdown-trigger flex-div" data-target="about-us-dropdown" @click="scrollToTop()">
                                 <span>About Us</span>
-                                <!-- <img src="~/assets/images/arrow-down.svg" alt="arrow-down" class="arrow-down"> -->
                                 <ArrowDownIcon />
                             </a>
 
                              <!-- Dropdown Structure -->
                             <ul id='about-us-dropdown' class='dropdown-content'>
                                 <li>
-                                    <nuxt-link to="#">About Us</nuxt-link>
+                                    <nuxt-link to="/about">About Us</nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link to="#">FAQ</nuxt-link>
+                                    <nuxt-link to="/faq">FAQ</nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link to="#">Our Team</nuxt-link>
+                                    <nuxt-link to="/team">Our Team</nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link to="#">Blog</nuxt-link>
+                                    <nuxt-link to="/blog">Blog</nuxt-link>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <nuxt-link to="/#" @click="scrollToTop()">
+                            <nuxt-link to="/projects" @click="scrollToTop()">
                                 <span>Our Projects</span>
                             </nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/#" @click="scrollToTop()">
+                            <nuxt-link to="/contact" @click="scrollToTop()">
                                 <span>Contact Us</span>
                             </nuxt-link>
                         </li>
@@ -86,44 +84,50 @@
                     </nuxt-link>
                 </li>
                 <li>
-                    <a href="#!" class="dropdown-trigger flex-div" data-target="about-us-dropdown-2" @click="scrollToTop()">
-                        <span>About Us</span>
-                        <img src="~/assets/images/arrow-down.svg" alt="arrow-down" class="arrow-down">
-                    </a>
-
-                    <!-- Dropdown Structure -->
-                    <ul id='about-us-dropdown-2' class='dropdown-content'>
+                    <ul class="collapsible">
                         <li>
-                            <nuxt-link to="#" class="sidenav-close">About Us</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="#" class="sidenav-close">FAQ</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="#" class="sidenav-close">Our Team</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="#" class="sidenav-close">Blog</nuxt-link>
+                            <div class="collapsible-header">
+                                <a class="flex-div">
+                                    <span>About Us</span>
+                                    <ArrowDownIcon />
+                                </a>
+                            </div>
+                            <div class="collapsible-body">
+                                <ul id="about-us-dropdown-2">
+                                    <li>
+                                        <nuxt-link to="/about" class="sidenav-close">About Us</nuxt-link>
+                                    </li>
+                                    <li>
+                                        <nuxt-link to="/faq" class="sidenav-close">FAQ</nuxt-link>
+                                    </li>
+                                    <li>
+                                        <nuxt-link to="/team" class="sidenav-close">Our Team</nuxt-link>
+                                    </li>
+                                    <li>
+                                        <nuxt-link to="/blog" class="sidenav-close">Blog</nuxt-link>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <nuxt-link to="/#" class="sidenav-close" @click="scrollToTop()">
+                    <nuxt-link to="/projects" class="sidenav-close" @click="scrollToTop()">
                         <span>Our Projects</span>
                     </nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/#" class="sidenav-close" @click="scrollToTop()">
+                    <nuxt-link to="/contact" class="sidenav-close" @click="scrollToTop()">
                         <span>Contact Us</span>
                     </nuxt-link>
                 </li>
-                <li>
+                <li class="nav-btn-wrappr">
                     <a href="#" class="rex-tv-btn flex-div btn sidenav-close" @click="scrollToTop()">
                         <img src="~/assets/images/youtube-icon.svg" alt="youtube-icon">
                         <span>REXtv</span>
                     </a>
                 </li>
-                <li>
+                <li class="nav-btn-wrappr">
                     <a href="#" class="rr-btn btn sidenav-close" @click="scrollToTop()">
                         Realtors' Registration
                     </a>
@@ -163,6 +167,9 @@ export default {
             // coverTrigger: false,
             hover: true,
         });
+
+        const elemsCollapsible = document.querySelectorAll('.collapsible');
+        M.Collapsible.init(elemsCollapsible);
     },
     methods: {
         scrollToTop() {
@@ -181,5 +188,12 @@ export default {
     }
     nav.main-nav.scrolled-nav ul>li>a:hover svg path {
         stroke: var(--pry-color);
+    }
+    nav.main-nav .sidenav-trigger svg {
+        position: relative;
+        top: 4px;
+    }
+    .sidenav svg path {
+        stroke: #1A242D;
     }
 </style>

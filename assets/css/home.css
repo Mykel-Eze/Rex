@@ -196,6 +196,9 @@ img.solar-pump-farm.full-width {
 }
 
 @media (max-width: 600px) {
+    section#landing-section {
+        min-height: 800px;
+    }
     .home-txt-wrapper {
         width: 100%;
     }
@@ -212,6 +215,21 @@ img.solar-pump-farm.full-width {
 
     section#landing-section .carousel-fixed-item.slider-number-wrapper {
         top: 12%;
+    }
+
+    section#landing-section .carousel-item .home-content-wrapper {
+        grid-template-columns: 100%;
+        height: auto;
+        gap: 60px;
+        top: calc(50% - 20px);
+        transform: translateY(-50%);
+        position: relative;
+    }
+    .slider-note {
+        /* max-width: none;
+        position: relative;
+        bottom: 0; */
+        display: none;
     }
 }
 
@@ -279,7 +297,20 @@ img.about-img {
 
 @media(max-width: 992px) {}
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    .section-sub-title {
+        font-size: 38px;
+    }
+    .about-content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    img.about-img {
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+}
 /**** end of About-Section Styles ****/
 
 /**** Services-Section Styles ****/
@@ -339,9 +370,26 @@ section#services::before {
     right: 8%;
 }
 
-@media(max-width: 992px) {}
+@media(max-width: 992px) {
+    .services-block {
+        width: 100%;
+    }
+    .services-block.block-2 {
+        margin-top: 25px;
+    }
+    .services-block.block-1 .section-desc-txt {
+        max-width: 100%;
+    }
+}
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    .services-block .section-desc-txt {
+        max-width: 100%;
+    }
+    .services-block img.bg-icon {
+        display: none;
+    }
+}
 /**** end of Services-Section Styles ****/
 
 /**** Our-Projects-Section Styles ****/
@@ -393,6 +441,35 @@ img.op-img-3 {
     right: 0;
     top: -40px;
     z-index: 0;
+}
+
+@media(max-width: 992px) {
+    .our-projects-txt-side {
+        max-width: 100%;
+        padding: 60px;
+    }
+    .our-projects-img-side.visible-xs-sm {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+    .our-projects-img-side > .material-placeholder > img {
+        position: relative;
+        width: 100%;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+    }
+}
+
+@media(max-width: 600px) {
+    section#our-porjects {
+        padding-bottom: 50px;
+    }
+    .our-projects-txt-side {
+        padding: 40px;
+    }
 }
 /**** end of Our-Projects-Section Styles ****/
 
@@ -455,7 +532,7 @@ section#get-started::before {
     border: 3px solid rgba(255, 255, 255, 0.50);
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(4px);
-    padding: 45px 0;
+    padding: 45px 24px;
 }
 p.get-started-desc.section-desc-txt {
     font-size: 20px;
@@ -519,9 +596,25 @@ p.testimonial-block-content {
     font-family: var(--font-medium);
 }
 
-@media(max-width: 992px) {}
+@media(max-width: 992px) {
+    .testimonial-blocks-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    .testimonial-desc-grid {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .testimonial-desc-grid a.link-btn {
+        width: 100%;
+    }
+    .testimonial-blocks-wrapper {
+        grid-template-columns: 100%;
+    }
+}
 /**** end of Testimonials-Section Styles ****/
 
 /**** Agent-Portal-Signup-Section Styles ****/
@@ -537,5 +630,14 @@ section#agent-portal-signup {
 .apss-link-side {
     left: -10%;
     position: relative;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    section#agent-portal-signup {
+        position: relative;
+        padding: 20px 0 80px;
+    }
 }
 /**** end of Agent-Portal-Signup-Section Styles ****/

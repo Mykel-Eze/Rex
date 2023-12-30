@@ -254,64 +254,42 @@ nav.main-nav .dropdown-content li a {
         left: 0;
         transform: none;
     }
-
     .dn-mobile {
         /* display: block; */
         display: flex;
         align-items: center;
     }
-
     nav .sidenav-trigger {
         top: 10px;
         padding-right: 0;
     }
-
     nav.main-nav ul#nav-mobile-2 {
         position: relative;
     }
-
     .sidenav-logo {
         margin: 30px 0 50px;
         text-align: left;
         margin-left: 30px;
     }
-
     ul#nav-mobile-2 a.sidenav-trigger {
         margin: 0;
     }
-
     .sidenav-trigger img {
         width: 40px;
         top: 5px;
         position: relative;
     }
-
     .sidenav button.nav-pry-btn-2.btn {
         width: 100%;
     }
-
     ul.sidenav-flex {
         display: flex;
         flex-direction: column;
     }
-
     .sidenav li {
         border-bottom: none;
     }
-
-    .sidenav li.contact-us-li {
-        position: absolute;
-        width: 80%;
-        left: 10%;
-        bottom: 80px;
-        border-bottom: none;
-    }
-
-    .sidenav li.contact-us-li.hul-1 {
-        bottom: 135px;
-    }
-
-    .sidenav li:not(.contact-us-li) a {
+    .sidenav li:not(.nav-btn-wrappr) a {
         background: transparent !important;
         font-size: 24px;
         height: initial;
@@ -320,17 +298,50 @@ nav.main-nav .dropdown-content li a {
         font-family: var(--font-smbold);
         margin: 30px 0;
     }
-
-    .sidenav li:not(.contact-us-li) a.nuxt-link-active {
+    .sidenav li:not(.nav-btn-wrappr) a.router-link-exact-active {
         color: var(--pry-color);
+        font-family: var(--font-bold);
     }
-
     img.logo {
         width: 70%;
     }
-
-    #nav-wrapper a.nuxt-link-active>span::before {
-        background-color: var(--pry-color);
+    ul#about-us-dropdown-2 {
+        padding: 1px 20px;
+    }
+    .collapsible-header>a.flex-div {
+        padding: 0 16px;
+        color: rgba(0, 0, 0, 0.87);
+        justify-content: space-between;
+        width: 100%;
+    }
+    a.rex-tv-btn.flex-div.btn.sidenav-close {
+        display: flex;
+        font-size: 20px;
+        height: 62px;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    a.rr-btn.btn {
+        border-radius: 100px;
+        background: var(--sec-color);
+        color: #2E2E2E;
+        height: 62px;
+        font-family: var(--font-bold);
+        line-height: 62px;
+        margin: 0;
+        position: relative;
+        top: -2px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    li.nav-btn-wrappr {
+        margin-top: 20px;
+    }
+    .sidenav-footer {
+        background: var(--pry-color);
+        padding: 20px;
+        bottom: 60px;
     }
 }
 
@@ -358,6 +369,9 @@ nav.main-nav .dropdown-content li a {
     .footer-content-block {
         padding: 0;
     }
+    a.rr-btn.btn.sidenav-close {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -370,7 +384,7 @@ nav.main-nav .dropdown-content li a {
     a.brand-logo img {
         width: 70%;
     }
-    .sidenav li:not(.contact-us-li) a {
+    .sidenav li:not(.nav-btn-wrappr) a {
         background: transparent !important;
         font-size: 30px;
         height: 30px;
