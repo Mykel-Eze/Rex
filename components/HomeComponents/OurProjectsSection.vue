@@ -12,7 +12,7 @@
                             Ado-Awaye, Iseyin, Oyo State. 
                         </p>
                         <div class="section-btn-wrapper">
-                            <nuxt-link to="/projects" class="more-projects-btn hover-scale">More projects</nuxt-link>
+                            <nuxt-link to="/projects" class="link-btn more-projects-btn hover-scale">More projects</nuxt-link>
                         </div>
                     </div>
                     <div class="our-projects-img-side">

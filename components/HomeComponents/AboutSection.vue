@@ -20,7 +20,7 @@
                             emerging real estate needs nationally and across the globe.
                         </div>
                         <div class="section-btn-wrapper">
-                            <nuxt-link to="/about" class="learn-more-btn hover-scale">Learn more</nuxt-link>
+                            <nuxt-link to="/about" class="link-btn hover-scale">Learn more</nuxt-link>
                         </div>
                     </div>
                 </div>

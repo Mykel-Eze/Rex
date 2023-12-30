@@ -53,7 +53,7 @@
                             </nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/#">
+                            <nuxt-link to="/#" @click="scrollToTop()">
                                 <span>Contact Us</span>
                             </nuxt-link>
                         </li>
@@ -76,17 +76,12 @@
         <ul id="slide-out" class="sidenav">
             <div class="sidenav-logo">
                 <nuxt-link to="/" class="sidenav-close" @click="scrollToTop()">
-                    <img src="~/assets/images/arila.svg" alt="Arila" class="logo">
+                    <img src="~/assets/images/rex-logo-blue.svg" alt="REX" class="logo">
                 </nuxt-link>
             </div>
             <ul class="sidenav-flex">
                 <li>
-                    <nuxt-link to="/approach" class="sidenav-close" @click="scrollToTop()">
-                        <span>Our Approach</span>
-                    </nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/" @click="scrollToTop()">
+                    <nuxt-link to="/" class="sidenav-close" @click="scrollToTop()">
                         <span>Home</span>
                     </nuxt-link>
                 </li>
@@ -99,37 +94,37 @@
                     <!-- Dropdown Structure -->
                     <ul id='about-us-dropdown-2' class='dropdown-content'>
                         <li>
-                            <nuxt-link to="#">About Us</nuxt-link>
+                            <nuxt-link to="#" class="sidenav-close">About Us</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="#">FAQ</nuxt-link>
+                            <nuxt-link to="#" class="sidenav-close">FAQ</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="#">Our Team</nuxt-link>
+                            <nuxt-link to="#" class="sidenav-close">Our Team</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="#">Blog</nuxt-link>
+                            <nuxt-link to="#" class="sidenav-close">Blog</nuxt-link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <nuxt-link to="/#" @click="scrollToTop()">
+                    <nuxt-link to="/#" class="sidenav-close" @click="scrollToTop()">
                         <span>Our Projects</span>
                     </nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/#">
+                    <nuxt-link to="/#" class="sidenav-close" @click="scrollToTop()">
                         <span>Contact Us</span>
                     </nuxt-link>
                 </li>
                 <li>
-                    <a href="#" class="rex-tv-btn flex-div btn" @click="scrollToTop()">
+                    <a href="#" class="rex-tv-btn flex-div btn sidenav-close" @click="scrollToTop()">
                         <img src="~/assets/images/youtube-icon.svg" alt="youtube-icon">
                         <span>REXtv</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="rr-btn btn" @click="scrollToTop()">
+                    <a href="#" class="rr-btn btn sidenav-close" @click="scrollToTop()">
                         Realtors' Registration
                     </a>
                 </li>
@@ -165,7 +160,7 @@ export default {
 
         const elemsDropdown = document.querySelectorAll('.dropdown-trigger');
         M.Dropdown.init(elemsDropdown, {
-            coverTrigger: false,
+            // coverTrigger: false,
             hover: true,
         });
     },

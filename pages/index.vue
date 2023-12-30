@@ -15,6 +15,22 @@
     <!---=== Our-Projects Section ===--->
     <OurProjectsSection />
     <!---=== end of Our-Projects Section ===--->
+
+    <!---=== Big-Banner Section ===--->
+    <BigBannerSection />
+    <!---=== end of Big-Banner Section ===--->
+
+    <!---=== Get-Started Section ===--->
+    <GetStartedSection />
+    <!---=== end of Get-Started Section ===--->
+
+    <!---=== Testimonial Section ===--->
+    <TestimonialsSection />
+    <!---=== end of Testimonial Section ===--->
+
+    <!---=== AgentPortalSignupSection Section ===--->
+    <AgentPortalSignupSection />
+    <!---=== end of AgentPortalSignupSection Section ===--->
   </div>
 </template>
 
