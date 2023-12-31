@@ -1,7 +1,7 @@
 <template>
   <div>
     <!---=== Top Section ===--->
-    <AboutTopSection />
+    <AboutTopSection title="About Us" />
     <!---=== end of Top Section ===--->
 
     <!---=== Company-Overview Section ===--->

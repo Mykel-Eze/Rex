@@ -1,0 +1,215 @@
+/**** Big-Hero-Section Styles ****/
+section#hero-section {
+    position: relative;
+    color: white;
+    height: 99vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+section#hero-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+section#hero-section h1.top-section-title.center {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+.scroll-txt-wrapper {
+    gap: 10px;
+    color: var(--sec-color);
+    font-size: 12px;
+}
+span.scroll-line {
+    width: 200px;
+    height: 1px;
+    background: var(--sec-color);
+}
+.scroll-txt-wrapper {
+    gap: 10px;
+    color: var(--sec-color);
+    font-size: 12px;
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    right: 0;
+    justify-content: center;
+    transform: rotate(-90deg);
+    animation: upAndDown 2s infinite alternate;
+}
+
+@keyframes upAndDown {
+    0% {
+        bottom: 130px;
+    }
+    50% {
+        bottom: 150px;
+    }
+    100% {
+        bottom: 130px;
+    }
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/**** end of Big-Hero-Section Styles ****/
+
+/**** Team-Members-Section Styles ****/
+section#team-members {
+    position: relative;
+    padding: 100px 0;
+}
+.team-members-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.modal-trigger {
+    cursor: pointer;
+}
+.team-members-block {
+    height: 405px;
+    position: relative;
+    overflow: hidden;
+}
+.team-members-block::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #003AD0 0%, rgba(0, 58, 208, 0.00) 80.2%);
+    z-index: 1;
+}
+.team-member-picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.2s;
+    z-index: 0;
+}
+.team-members-block:hover .team-member-picture {
+    transform: scale(1.12);
+}
+.team-member-details {
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    left: 10%;
+    max-width: 365px;
+}
+.team-member-name {
+    font-size: 30px;
+    font-family: var(--font-bold);
+    color: white;
+}
+.team-member-role {
+    font-size: 23px;
+    color: var(--sec-color);
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/**** end of Team-Members-Section Styles ****/
+
+/**** Team-Member-Modal Styles ****/
+.modal.team-modal {
+    max-height: 80%;
+    border-radius: 8px;
+}
+.modal.team-modal .modal-content {
+    padding: 0;
+    background: #D9D9D9;
+}
+.member-modal-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+}
+.member-role {
+    font-size: 18px;
+    font-family: var(--font-bold);
+    color: #003AD0;
+}
+.member-name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: var(--font-bold);
+    margin: 20px 0;
+}
+.member-desc {
+    font-size: 20px;
+}
+a.member-linkedin-wrapper {
+    position: absolute;
+    bottom: 20px;
+    color: #131316;
+    right: 20px;
+    font-size: 14px;
+}
+a.member-linkedin-wrapper span {
+    position: relative;
+    top: 2px;
+}
+.modal.team-modal img.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+.member-img-side {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+img.member-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .team-members-wrapper {
+        grid-template-columns: 100%;
+    }
+    .modal.team-modal {
+        width: 90%;
+    }
+    .member-modal-wrapper {
+        grid-template-columns: 100%;
+    }
+    .member-img-side {
+        height: 300px;
+    }
+    img.member-img {
+        object-position: top;
+    }
+    .member-txt-side {
+        padding: 30px 10px;
+    }
+    a.member-linkedin-wrapper {
+        position: relative;
+        width: 100%;
+        margin: 40px auto -20px;
+        justify-content: flex-end;
+    }
+    .modal.team-modal img.modal-close {
+        background: whitesmoke;
+        border-radius: 50%;
+        right: 10px;
+    }
+}
+/**** end of Team-Member-Modal Styles ****/

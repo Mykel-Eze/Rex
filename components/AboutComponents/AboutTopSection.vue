@@ -2,7 +2,7 @@
   <section id="top-section">
     <div class="row full-height">
         <div class="container full-height">
-            <h1 class="top-section-title center">About Us</h1>
+            <h1 class="top-section-title center">{{ title }}</h1>
         </div>
     </div>
   </section>
@@ -10,7 +10,13 @@
 
 <script>
 export default {
-    name: 'AboutTopSection'
+    name: 'AboutTopSection',
+    props: {
+      title: {
+        type: String,
+        default: "Section Title"
+      },
+    }
 }
 </script>
 
