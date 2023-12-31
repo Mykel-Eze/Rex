@@ -9,7 +9,7 @@
     <!---=== end of Team-Members Section ===--->
 
     <!---=== Team-Member Modal ===--->
-    <TeamMember2Modal />
+    <TeamMembersModal />
     <!---=== end of Team-Member Modal ===--->
   </div>
 </template>

@@ -106,7 +106,7 @@ section#team-members {
     bottom: 20px;
     z-index: 2;
     left: 10%;
-    max-width: 365px;
+    max-width: 385px;
 }
 .team-member-name {
     font-size: 30px;
@@ -135,6 +135,7 @@ section#team-members {
 .member-modal-wrapper {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
+    align-items: center;
 }
 .member-role {
     font-size: 18px;

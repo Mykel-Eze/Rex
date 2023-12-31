@@ -49,7 +49,8 @@
                                             Tailored Solutions:
                                         </h4>
                                         <span class="indicator-text">
-                                            We provide customized solutions that meet your specific needs and requirements.
+                                            We don't just offer properties; we deliver personalized real estate solutions, ensuring
+                                            each client finds exactly what they're looking for.
                                         </span>
                                     </div>
                                 </li>
@@ -63,7 +64,8 @@
                                             Innovative Approach:
                                         </h4>
                                         <span class="indicator-text">
-                                            We adopt creative and forward-thinking strategies to deliver unique and effective solutions.
+                                            Leveraging the latest technology and market data, we stay ahead of the 
+                                            curve, offering our clients innovative and sustainable real estate options.
                                         </span>
                                     </div>
                                 </li>
@@ -77,7 +79,8 @@
                                             Unwavering Integrity:
                                         </h4>
                                         <span class="indicator-text">
-                                            We uphold strong moral principles and ethical standards in all our dealings.
+                                            We believe in transparency and honesty, ensuring that our clients make 
+                                            informed decisions with confidence and peace of mind.
                                         </span>
                                     </div>
                                 </li>
@@ -91,7 +94,8 @@
                                             Comprehensive Services:
                                         </h4>
                                         <span class="indicator-text">
-                                            We offer a wide range of services that cover all aspects of real estate investment and accommodation.
+                                            From property search and purchase to management and consulting, our
+                                            full spectrum of services caters to all your real estate needs under one roof.
                                         </span>
                                     </div>
                                 </li>
