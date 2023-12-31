@@ -1,0 +1,112 @@
+/**** Top-Section Styles ****/
+section#blue-top-section {
+    background: #003AD0;
+    color: white;
+    height: 550px;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+section#blue-top-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/big-contour-bg.png");
+    background-size: 100%;
+    background-position: right 25%;
+    background-repeat: no-repeat;
+}
+
+.blue-top-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: calc(50% + 30px);
+    transform: translateY(-50%);
+}
+.blue-top-section-wrapper .top-section-title {
+    margin: 0;
+    max-width: 565px;
+}
+img.blue-top-section-img {
+    width: 20%;
+    max-width: 280px;
+}
+
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/**** end of Top-Section Styles ****/
+
+/**** FAQs-Section Styles ****/
+.faq-collapsible-wrapper {
+    margin: 80px 0;
+}
+
+.faq-collapsible-wrapper .collapsible {
+    border: none;
+    box-shadow: none;
+}
+
+.faq-collapsible-wrapper .collapsible-header {
+    font-family: var(--font-xbold);
+    font-size: 36px;
+    color: #6F6F6F;
+    padding: 1rem 0;
+    border-bottom-color: black;
+}
+
+.faq-collapsible-wrapper .active .collapsible-header {
+    color: var(--pry-color);
+}
+
+.faq-collapsible-wrapper .collapsible-body {
+    padding: 2rem 0;
+}
+
+.faq-collapsible-wrapper img.down-arr {
+    transition: transform 1.2s;
+}
+
+.faq-collapsible-wrapper .active img.down-arr {
+    transform: rotate(180deg);
+}
+
+.faq-txt {
+    font-size: 24px;
+    color: #2E2E2E;
+}
+
+@media(max-width: 992px) {
+    .blue-top-section-wrapper {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .blue-top-section-wrapper .top-section-title {
+        top: 0;
+        transform: none;
+    }
+    img.blue-top-section-img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .faq-collapsible-wrapper .collapsible-header {
+        font-size: 24px;
+    }
+    img.blue-top-section-img {
+        width: 50%;
+    }
+    #faq-page .blue-top-section-wrapper .top-section-title {
+        font-size: 34px;
+    }
+}
+/**** end of FAQs-Section Styles ****/

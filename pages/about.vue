@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="about-page">
     <!---=== Top Section ===--->
     <AboutTopSection title="About Us" />
     <!---=== end of Top Section ===--->

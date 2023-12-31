@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="team-page">
     <!---=== Top Section ===--->
     <BigHeroSection title="Our Team" backgroundImage="/other-images/our-team-banner.jpg" />
     <!---=== end of Top Section ===--->

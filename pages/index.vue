@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home-page">
     <!---=== Landing Section ===--->
     <LandingSection />
     <!---=== end of Landing Section ===--->
