@@ -9,6 +9,7 @@ export default {
       autoprefixer: {},
     },
   },
+  modules: ['nuxt-swiper'],
   app: {
     head: {
       link: [
