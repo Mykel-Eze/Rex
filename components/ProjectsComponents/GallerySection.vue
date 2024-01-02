@@ -15,7 +15,7 @@
                         :spaceBetween="30"
                         :rewind="true"
                         :navigation="{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }"
-                        :modules="[SwiperAutoplay]"
+                        :modules="[SwiperAutoplay, SwiperNavigation]"
                         :loop="true"
                         :autoplay="{
                             delay: 8000,
@@ -53,13 +53,6 @@ export default {
     name: "GallerySection",
     data() {
         return {
-            swiperOptions: {
-                slidesPerView: 3,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
-                },
-            },
             images: [
                 { url: '/other-images/team-expertise-1.png' },
                 { url: '/other-images/team-expertise-2.png' },
