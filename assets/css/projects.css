@@ -166,3 +166,37 @@ section#other-projects .section-desc-txt {
     }
 }
 /**** end of Other-Projects-Section Styles ****/
+
+/**** Property-Desc-Section Styles ****/
+section#property-description {
+    position: relative;
+    padding: 100px 0 20px;
+}
+
+.property-desc-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.property-desc-txt-side {
+    max-width: 482px;
+}
+.property-desc-title {
+    font-size: 38px;
+    font-family: var(--font-bold);
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.property-desc-txt {
+    font-size: 20px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .property-desc-wrapper {
+        grid-template-columns: 100%;
+    }
+}
+/**** end of Property-Desc-Section Styles ****/

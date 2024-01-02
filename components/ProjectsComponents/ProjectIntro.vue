@@ -25,7 +25,7 @@
 
 <script>
 export default {
-    name: "ProjectIntro1"
+    name: "ProjectIntro"
 }
 </script>
 

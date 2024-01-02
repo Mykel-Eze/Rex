@@ -36,6 +36,7 @@ section#blue-top-section {
     padding: 20px;
     color: white;
     position: relative;
+    overflow: hidden;
 }
 section#blue-top-section::before {
     content: "";
@@ -69,9 +70,70 @@ img.blue-top-section-img {
     max-width: 280px;
 }
 
+.other-project-page .blue-top-section-wrapper .top-section-title {
+    max-width: 400px;
+    text-align: left;
+    margin-top: 40px;
+}
+.other-project-page.opp-1 img.blue-top-section-img,
+.other-project-page.opp-2 img.blue-top-section-img {
+    width: 100%;
+    max-width: none;
+    position: relative;
+    top: 40px;
+}
+.other-project-page .blue-top-section-wrapper {
+    align-items: flex-start;
+}
+#abuja-project-page img.blue-top-section-img {
+    width: 60%;
+    top: 40px;
+    right: -15%;
+}
+.other-project-page.opp-2 img.blue-top-section-img {
+    width: 50%;
+    max-width: 375px;
+    top: 0;
+}
+.other-project-page.opp-2 .blue-top-section-wrapper .top-section-title {
+    margin-top: 10px;
+}
 
-@media(max-width: 992px) {}
 
-@media(max-width: 600px) {}
+@media(max-width: 992px) {
+    .other-project-page .blue-top-section-wrapper {
+        gap: 30px;
+    }
+    #abuja-project-page img.blue-top-section-img {
+        right: 0;
+    }
+    #lagos-project-page img.blue-top-section-img {
+        left: -120px;
+    }
+}
+
+@media(max-width: 600px) {
+     .other-project-page .blue-top-section-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .other-project-page.opp-2 img.blue-top-section-img {
+        margin: auto;
+    }
+    .other-project-page .blue-top-section-wrapper .top-section-title {
+        text-align: center;
+    }
+    #abuja-project-page img.blue-top-section-img {
+        width: 100%;
+        top: 20px;
+    }
+    .other-project-page.opp-1 img.blue-top-section-img {
+        top: 0;
+    }
+    #lagos-project-page img.blue-top-section-img {
+        left: 0;
+    }
+}
 /**** end of Top-Section Styles ****/
 </style>
