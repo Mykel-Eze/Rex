@@ -199,6 +199,7 @@ a.rex-tv-btn.flex-div.btn {
     font-family: var(--font-bold);
     gap: 10px;
     height: 44px;
+    line-height: 46px;
     animation: pulseBtn 2s infinite;
 }
 
@@ -219,7 +220,7 @@ nav.main-nav ul>li>a.rr-btn.btn {
     color: #2E2E2E;
     height: 44px;
     font-family: var(--font-bold);
-    line-height: 44px;
+    line-height: 46px;
     margin: 0;
     position: relative;
     top: -2px;

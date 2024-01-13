@@ -3,7 +3,7 @@
     <div class="row">
         <div class="container">
             <div class="about-content-wrapper">
-                <div class="about-txt-side">
+                <div class="about-txt-side" data-aos="fade-up" data-aos-duration="500">
                     <div class="section-title mb-4">
                         <span class="section-title-bar"></span>
                         About us
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="about-img-side">
-                    <img src="~/assets/images/about-img.png" alt="globe and houses" class="about-img">
+                    <img src="~/assets/images/about-img.png" alt="globe and houses" class="about-img" data-aos="fade-up" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -35,9 +35,9 @@
 </template>
 
 <script>
-export default {
-    name: "AboutSection"
-}
+    export default {
+        name: "AboutSection",
+    }
 </script>
 
 <style>

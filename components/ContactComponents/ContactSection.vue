@@ -10,7 +10,7 @@
                         <ContactForm />
                     </div>
                     <div class="contact-details-side">
-                        <div>
+                        <div data-aos="fade-up" data-aos-duration="1000">
                             <div class="cds-header">
                                 <div class="cds-title">Contact us</div>
                                 <div class="cds-desc">

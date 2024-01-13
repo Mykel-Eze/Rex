@@ -84,7 +84,7 @@
                         <div class="collapsible-body">
                             <div class="faq-txt">
                                 <p>
-                                    Yes, our flagship project, Idunu Oyo Farms and Resort, offers investors the chance to invest 
+                                    Yes, our flagship project, Ìdùnú Òyó Farms and Resort, offers investors the chance to invest 
                                     in farmland, capitalizing on the growth potential of Nigeria's agricultural sector without 
                                     the typical operational challenges.
                                 </p>

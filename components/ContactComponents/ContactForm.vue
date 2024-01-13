@@ -1,5 +1,5 @@
 <template>
-    <form id="contact-form" action="#" class="cfs-block">
+    <form id="contact-form" action="#" class="cfs-block" data-aos="fade-up" data-aos-duration="500">
         <div class="input-field select-field">
           <label for="category">Category</label>
           <select id="category" name="category" v-model="category" required>

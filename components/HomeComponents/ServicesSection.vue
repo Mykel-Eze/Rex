@@ -8,7 +8,7 @@
             </div>
 
             <div class="services-block-wrapper">
-                <div class="services-block block-1">
+                <div class="services-block block-1" data-aos="fade-up">
                     <div class="section-sub-title">
                         Real Estate Marketing and Sale
                     </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
 
-                <div class="services-block block-2">
+                <div class="services-block block-2" data-aos="fade-up">
                     <div class="section-sub-title sec-color">
                         Property Management
                     </div>

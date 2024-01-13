@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="sect-contents custom-carousel-wrapper col s12 pad0">
-                        <div class="col s12 l6 int-img-side text-center-xs" data-aos="fade-down">
+                        <div class="col s12 l6 int-img-side text-center-xs" data-aos="fade-up">
                             <img src="~/assets/images/hand-shake.png" alt="slide-img" class="int-img active-int-img" data-slide-id="1">
                             <img src="~/assets/images/our-project-1.jpg" alt="slide-img" class="int-img" data-slide-id="2">
                             <img src="~/assets/images/our-project-2.jpg" alt="slide-img" class="int-img" data-slide-id="3">

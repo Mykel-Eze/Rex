@@ -3,7 +3,7 @@
     <div class="row">
         <div class="container">
             <div class="mission-vision-wrapper">
-                <div class="mv-block mission-block">
+                <div class="mv-block mission-block" data-aos="fade-up" data-aos-duration="500">
                     <div class="section-sub-title">Mission</div>
                     <p class="section-desc-txt">
                         To satisfy emerging global real estate needs. Our experience and professional services
@@ -12,7 +12,7 @@
                         needs and to create viable portfolios in a dynamic global environment.
                     </p>
                 </div>
-                <div class="mv-block vision-block pry-bg">
+                <div class="mv-block vision-block pry-bg" data-aos="fade-up" data-aos-duration="1000">
                     <div class="section-sub-title sec-color">Vision</div>
                     <p class="section-desc-txt">
                         Becoming a real estate business that engages ICT driven solutions given to global
