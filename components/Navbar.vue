@@ -41,7 +41,7 @@
                                     <nuxt-link to="/team">Our Team</nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link to="#">Blog</nuxt-link>
+                                    <nuxt-link to="/blog">Blog</nuxt-link>
                                 </li>
                             </ul>
                         </li>
@@ -104,7 +104,7 @@
                                         <nuxt-link to="/team" class="sidenav-close">Our Team</nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="#" class="sidenav-close">Blog</nuxt-link>
+                                        <nuxt-link to="/blog" class="sidenav-close">Blog</nuxt-link>
                                     </li>
                                 </ul>
                             </div>
@@ -133,7 +133,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="sidenav-footer">
+            <!-- <div class="sidenav-footer">
                 <div class="footer-social-wrapper">
                     <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
                         <img src="~/assets/images/twitter.svg" alt="twitter" class="social-icons">
@@ -145,7 +145,7 @@
                         <img src="~/assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </ul>
     </div>
 </template>
