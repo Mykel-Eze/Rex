@@ -232,6 +232,9 @@ img {
 #main-contents-wrapper {
     min-height: 50vh;
 }
+a.btn {
+    overflow: hidden;
+}
 
 
 @media (max-width: 992px) {

@@ -272,6 +272,18 @@ span.indicator-text {
     color: #000;
 }
 
+span.blue-shape {
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 107px;
+    border-radius: 5px;
+    background: var(--pry-color);
+    /* z-index: 10; */
+    left: -15px;
+    bottom: 30px;
+}
+
 @media(min-width: 993px) {
     .int-txt-side {
         padding-left: 0;
@@ -279,6 +291,14 @@ span.indicator-text {
 
     li.txt-indicator-block {
         padding-left: 0;
+    }
+    .int-img-side {
+        padding-left: 30px !important;
+        padding-right: 0 !important;
+    }
+    img.slider-indicator-icon {
+        position: relative;
+        left: -10px;
     }
 }
 

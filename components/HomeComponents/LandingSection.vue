@@ -31,15 +31,16 @@
                   Pioneering Global Property Excellence
                 </div>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
               </div>
               <div class="home-img-wrapper">
                 <div class="relative">
-                  <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
-                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2">
+                  <img src="~/assets/images/animated-img.gif" alt="animated-img" class="animated-img">
+                  <!-- <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
+                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2"> -->
                   <img src="~/assets/images/hand-holding-city.png" alt="hand-holding-city" class="front-layer">
                 </div>
               </div>
@@ -58,15 +59,16 @@
                   Transforming Real Estate with Expertise, Innovation, and Integrity
                 </h1>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
               </div>
               <div class="home-img-wrapper">
                 <div class="relative">
-                  <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
-                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2">
+                  <img src="~/assets/images/animated-img.gif" alt="animated-img" class="animated-img">
+                  <!-- <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
+                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2"> -->
                   <img src="~/assets/images/3d-globe.png" alt="3d-globe" class="front-layer">
                 </div>
               </div>
@@ -88,15 +90,16 @@
                   One Client at a Time
                 </div>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
               </div>
               <div class="home-img-wrapper">
                 <div class="relative">
-                  <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
-                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2">
+                  <img src="~/assets/images/animated-img.gif" alt="animated-img" class="animated-img">
+                  <!-- <img src="~/assets/images/contour-1.svg" alt="pattern" class="back-layer-1">
+                  <img src="~/assets/images/yellow-circle.svg" alt="yellow-circle" class="back-layer-2"> -->
                   <img src="~/assets/images/apartment.png" alt="apartment" class="front-layer">
                 </div>
               </div>

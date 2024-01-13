@@ -31,9 +31,10 @@ section#landing-section .carousel {
 }
 section#landing-section .carousel-item .home-content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(300px, 1fr) 1fr;
     gap: 20px;
     align-items: center;
+    overflow-x: hidden;
 }
 .home-txt-wrapper {
     position: relative;
@@ -74,15 +75,21 @@ img.back-layer-2 {
     left: -15px;
 }
 img.front-layer {
-    top: 10%;
+    top: 18%;
     z-index: 2;
-    left: 0;
+    right: 0;
+    width: 100%;
 }
 div#home-slide-2 img.front-layer {
-    width: 75%;
-    top: -30px;
+    width: 65%;
+    top: -10%;
     left: auto;
-    right: 30px;
+    right: 20px;
+}
+img.animated-img {
+    width: 600px;
+    height: auto;
+    /* max-width: none; */
 }
 
 a.home-btn.btn {
@@ -193,6 +200,9 @@ img.solar-pump-farm.full-width {
     section#landing-section .carousel-fixed-item.slider-number-wrapper {
         top: 15%;
     }
+    img.animated-img {
+        width: 550px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -220,8 +230,8 @@ img.solar-pump-farm.full-width {
     section#landing-section .carousel-item .home-content-wrapper {
         grid-template-columns: 100%;
         height: auto;
-        gap: 60px;
-        top: calc(50% - 20px);
+        gap: 20px;
+        top: calc(50% - 10px);
         transform: translateY(-50%);
         position: relative;
     }
@@ -230,6 +240,9 @@ img.solar-pump-farm.full-width {
         position: relative;
         bottom: 0; */
         display: none;
+    }
+    img.animated-img {
+        width: 450px;
     }
 }
 
