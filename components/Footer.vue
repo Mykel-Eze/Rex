@@ -44,7 +44,7 @@
 
                 <div class="footer-copyright-social flex-div justify-content-btw">
                     <div class="footer-copyright">
-                        © 2023 Real Estate Xplorer. All Right Reserved
+                        © {{ currentYear }} Real Estate Xplorer. All Right Reserved
                     </div>
                     <div class="flex-div footer-social">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="footer-link flex-div sec-color">
@@ -69,6 +69,11 @@
 <script>
 export default {
     name: 'Footer',
+    data() {
+        return {
+            currentYear: new Date().getFullYear(),
+        };
+    },
 }
 </script>
 
