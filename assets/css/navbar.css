@@ -36,6 +36,9 @@ nav.main-nav ul>li>a {
     line-height: 18px;
     outline: none !important;
 }
+nav.main-nav ul>li>a.dropdown-trigger.flex-div {
+    padding-right: 0;
+}
 
 nav.main-nav ul>li>a:hover,
 a.nuxt-link-active {
