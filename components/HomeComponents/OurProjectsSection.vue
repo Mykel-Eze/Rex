@@ -5,9 +5,9 @@
                 <div class="our-projects-wrapper">
                     <div class="our-projects-txt-side">
                         <div class="section-sub-title">Our Projects</div>
-                        <div class="sub-title-2">Ìdùnú Òyó Farms and Resort</div>
+                        <div class="sub-title-2">Ìdùnú Òyó Farms & Resort</div>
                         <p class="section-desc-txt">
-                            Ìdùnú Òyó Farms and Resort, our premier project, stands as a meticulously
+                            Ìdùnú Òyó Farms & Resort, our premier project, stands as a meticulously
                             planned agritourism venture sprawling across over 500 hectares in
                             Ado-Awaye, Iseyin, Oyo State. 
                         </p>

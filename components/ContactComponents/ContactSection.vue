@@ -14,7 +14,7 @@
                             <div class="cds-header">
                                 <div class="cds-title">Contact us</div>
                                 <div class="cds-desc">
-                                    We operate primarily from Lagos Nigeria, however, our services, clientele and portfolio
+                                    We operate primarily from Lagos, Nigeria. However, our services, clientele and portfolio
                                     spread to other regions of Nigeria and our locational advantage in Africa leaves us
                                     open to emerging global business relationships.
                                 </div>
@@ -27,12 +27,13 @@
                                 <div class="cds-info-row flex-div">
                                     <img src="~/assets/images/location-icon.svg" alt="location" class="cds-info-img">
                                     <a class="cds-info-link">
-                                        <b>Operational Office Address:</b> 21, Oluwaleimu Street, off Toyin Street, Ikeja Lagos
+                                        <b>Office Address:</b> 21, Oluwaleimu Street, Ikeja, Lagos
                                     </a>
                                 </div>
                                 <div class="cds-info-row flex-div">
                                     <img src="~/assets/images/call-icon.svg" alt="call" class="cds-info-img">
-                                    <a href="tel:+2347034145958" class="cds-info-link">+234 703 4145 958</a>
+                                    <a href="tel:+2349062036663" class="cds-info-link">+234 906 203 6663</a> || 
+                                    <a href="tel:+2349078541189" class="cds-info-link">+234 907 854 1189</a>
                                 </div>
                                 <div class="cds-info-row flex-div">
                                     <img src="~/assets/images/mail-icon-2.svg" alt="call" class="cds-info-img">

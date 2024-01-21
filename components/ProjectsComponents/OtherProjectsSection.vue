@@ -5,7 +5,7 @@
                 <div class="section-header center">
                     <div class="section-sub-title">Other projects</div>
                     <div class="section-desc-txt">
-                        "Discover the Pinnacle of Property Excellence with Real Estate Xplorer. Spanning
+                        "Discover the Pinnacle of Property Excellence with Realestate Xplorer Nig Ltd. Spanning
                         across Nigeria's most dynamic regions — Lagos, Abuja, Ogun, and Oyo — our projects
                         are more than just properties; they are visions brought to life, designed to surpass
                         expectations and elevate lifestyles.

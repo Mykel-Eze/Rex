@@ -5,8 +5,8 @@
         <!---=== end of Top Section ===--->
 
         <!---=== Property-Description Section ===--->
-        <PropertyDescSection title="Experience Urban Sophistication in Lagos" img="/other-images/property-img.png">
-            Our properties in Lagos offer luxury living in Nigeria's vibrant commercial hub. From high-rise apartments
+        <PropertyDescSection title="Experience Urban Living in Lagos" img="/other-images/property-img.png">
+            Our properties in Lagos offer affordable living in Nigeria's vibrant commercial hub. From apartments
             with stunning city views to serene gated communities, each property is a haven of comfort and style.
         </PropertyDescSection>
         <!---=== end of Property-Description Section ===--->

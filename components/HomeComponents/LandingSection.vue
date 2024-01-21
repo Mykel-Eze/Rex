@@ -25,10 +25,10 @@
             <div class="home-content-wrapper full-height">
               <div class="home-txt-wrapper">
                 <h1 class="home-txt-title">
-                  Real Estate <br> Xplorer:
+                  Realestate Xplorer Nig Ltd
                 </h1>
                 <div class="home-txt-desc">
-                  Pioneering Global Property Excellence
+                  Satisfying emerging real estate needs
                 </div>
                 <div class="home-btn-wrapper">
                   <nuxt-link to="/projects" class="home-btn btn">
@@ -48,7 +48,7 @@
 
             <div class="slider-note">
               <!-- <span class="slider-note-bar"></span> -->
-              Transforming Real Estate with Expertise, Innovation, and Integrity
+              Transforming Real Estate with Integrity, Efficiency and Value
             </div>
           </div>
 
@@ -56,7 +56,7 @@
             <div class="home-content-wrapper full-height">
               <div class="home-txt-wrapper">
                 <h1 class="home-txt-title">
-                  Transforming Real Estate with Expertise, Innovation, and Integrity
+                  Transforming Real Estate with Integrity, Efficiency and Value
                 </h1>
                 <div class="home-btn-wrapper">
                   <nuxt-link to="/projects" class="home-btn btn">
@@ -76,7 +76,7 @@
 
             <div class="slider-note">
               <span class="slider-note-bar"></span>
-              Worldwide Property Portfolio - Your Premier Destination for Global Real Estate.
+              Your Premier Destination for Affordable Real Estate.
             </div>
           </div>
 
@@ -84,7 +84,7 @@
             <div class="home-content-wrapper full-height">
               <div class="home-txt-wrapper">
                 <h1 class="home-txt-title">
-                  Setting Global Standards in Real Estate,
+                  Setting Global Standards in Real Estate
                 </h1>
                 <div class="home-txt-desc">
                   One Client at a Time
@@ -143,9 +143,9 @@ export default {
       const elemSlide = document.querySelector('#landing-section .carousel')
       M.Carousel.getInstance(elemSlide).next()
 
-      setTimeout(autoplay, 8000)
+      setTimeout(autoplay, 80000)
     }
-    setTimeout(autoplay, 8000)
+    setTimeout(autoplay, 80000)
   },
   methods: {
     prev() {

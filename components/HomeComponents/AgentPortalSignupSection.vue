@@ -8,7 +8,7 @@
             </div>
             <div class="apss-link-side hover-scale">
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="~/assets/images/agent-portal-image.png" alt="agent-portal-image" class="apps-link-img">
+                <img src="~/assets/images/agent-portal-image-2.png" alt="agent-portal-image" class="apps-link-img">
               </a>
             </div>
           </div>

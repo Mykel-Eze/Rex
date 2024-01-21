@@ -7,7 +7,7 @@
 
                 <div class="team-member-details">
                     <div class="team-member-name">Mr Eyitayo Shiyanbola</div>
-                    <div class="team-member-role">CEO/MD</div>
+                    <div class="team-member-role">MD/CEO</div>
                 </div>
             </div>
             <div class="team-members-block modal-trigger" data-target="team-member-2" data-aos="fade-up">

@@ -416,6 +416,16 @@ section#services::before {
 }
 /**** end of Services-Section Styles ****/
 
+/**** Real-Estate-Dev-Section Styles ****/
+section#real-estate-dev {
+    position: relative;
+    padding: 80px 0 70px;
+    /* background-color: #F3F1F1;
+    background-image: url(../images/services-bg.jpg);
+    background-size: cover; */
+}
+/**** end of Real-Estate-Dev-Section Styles ****/
+
 /**** Our-Projects-Section Styles ****/
 section#our-porjects {
     padding: 140px 0 100px;

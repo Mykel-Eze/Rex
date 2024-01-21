@@ -9,10 +9,10 @@
                         About us
                     </div>
                     <div class="flex flex-col gap-[30px]">
-                        <div class="section-sub-title">
+                        <!-- <div class="section-sub-title">
                             Real Estate as a basic need requires careful selection and management in a
                             constantly changing environment.
-                        </div>
+                        </div> -->
                         <div class="section-desc-txt">
                             Real Estate Xplorer is a dynamic Real Estate Service and Development Company
                             established in 2020. We are registered with the Corporate Affairs Commission of
