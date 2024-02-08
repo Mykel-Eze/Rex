@@ -13,12 +13,12 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2",
-    "nuxt-aos": "^1.2.1",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
+    "aos": "^2.3.4",
     "jquery": "^3.7.1",
     "materialize-css": "^1.0.0-rc.2",
     "nuxt-swiper": "^1.2.2"

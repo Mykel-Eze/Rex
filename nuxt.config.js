@@ -38,6 +38,7 @@ export default {
     height: '5px',
   },
   css: [
+    'aos/dist/aos.css',
     '@/assets/css/main.css',
     'materialize-css/dist/css/materialize.min.css',
     '@/assets/css/fonts.css',

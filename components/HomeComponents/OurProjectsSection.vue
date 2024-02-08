@@ -34,10 +34,13 @@
 
 <script>
 import M from 'materialize-css';
+import AOS from 'aos';
 
 export default {
     name: "OurProjectsSection",
     mounted() {
+        AOS.init();
+
         const elemsMaterialBox = document.querySelectorAll('.materialboxed');
         M.Materialbox.init(elemsMaterialBox);
     }

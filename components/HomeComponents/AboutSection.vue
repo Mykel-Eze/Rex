@@ -25,7 +25,7 @@
                     </div>
                 </div>
 
-                <div class="about-img-side">
+                <div class="about-img-side" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
                     <img src="~/assets/images/about-img.png" alt="globe and houses" class="about-img">
                 </div>
             </div>

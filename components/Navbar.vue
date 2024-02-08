@@ -41,7 +41,7 @@
                                     <nuxt-link to="/team">Our Team</nuxt-link>
                                 </li>
                                 <li>
-                                    <nuxt-link to="#">Blog</nuxt-link>
+                                    <nuxt-link to="https://realestae-xplorer.medium.com" target="_blank" rel="noopener noreferrer">Blog</nuxt-link>
                                 </li>
                             </ul>
                         </li>
@@ -104,7 +104,7 @@
                                         <nuxt-link to="/team" class="sidenav-close">Our Team</nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="#" class="sidenav-close">Blog</nuxt-link>
+                                        <nuxt-link to="https://realestae-xplorer.medium.com" target="_blank" rel="noopener noreferrer" class="sidenav-close">Blog</nuxt-link>
                                     </li>
                                 </ul>
                             </div>

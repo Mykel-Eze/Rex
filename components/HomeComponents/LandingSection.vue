@@ -31,7 +31,7 @@
                   Pioneering Global Property Excellence
                 </div>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
@@ -58,7 +58,7 @@
                   Transforming Real Estate with Expertise, Innovation, and Integrity
                 </h1>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
@@ -88,7 +88,7 @@
                   One Client at a Time
                 </div>
                 <div class="home-btn-wrapper">
-                  <nuxt-link to="/portfolio" class="home-btn btn">
+                  <nuxt-link to="/projects" class="home-btn btn">
                     Discover Our Portfolio
                   </nuxt-link>
                 </div>
