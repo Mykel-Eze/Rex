@@ -17,7 +17,7 @@
             </div>
 
             <div class="testimonial-blocks-wrapper">
-                <div class="testimonial-block">
+                <div class="testimonial-block" data-aos="fade-up" data-aos-duration="500">
                     <div class="testimonial-block-header flex-div">
                         <ReviewPointIcon />
                         <span>Customer Reviews</span>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-block">
+                <div class="testimonial-block" data-aos="fade-up" data-aos-duration="1000">
                     <div class="testimonial-block-header flex-div">
                         <ReviewPointIcon />
                         <span>Customer Reviews</span>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-block">
+                <div class="testimonial-block" data-aos="fade-up" data-aos-duration="1500">
                     <div class="testimonial-block-header flex-div">
                         <ReviewPointIcon />
                         <span>Customer Reviews</span>

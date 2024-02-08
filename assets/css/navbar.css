@@ -36,6 +36,9 @@ nav.main-nav ul>li>a {
     line-height: 18px;
     outline: none !important;
 }
+nav.main-nav ul>li>a.dropdown-trigger.flex-div {
+    padding-right: 0;
+}
 
 nav.main-nav ul>li>a:hover,
 a.nuxt-link-active {
@@ -199,6 +202,7 @@ a.rex-tv-btn.flex-div.btn {
     font-family: var(--font-bold);
     gap: 10px;
     height: 44px;
+    line-height: 46px;
     animation: pulseBtn 2s infinite;
 }
 
@@ -219,7 +223,7 @@ nav.main-nav ul>li>a.rr-btn.btn {
     color: #2E2E2E;
     height: 44px;
     font-family: var(--font-bold);
-    line-height: 44px;
+    line-height: 46px;
     margin: 0;
     position: relative;
     top: -2px;
@@ -294,9 +298,12 @@ nav.main-nav .dropdown-content li a {
         font-size: 24px;
         height: initial;
         line-height: 22px;
-        /* font-weight: 400; */
+        font-weight: 600;
         font-family: var(--font-smbold);
         margin: 30px 0;
+    }
+    .sidenav li:not(.nav-btn-wrappr) .collapsible-body li a {
+        font-weight: 500;
     }
     .sidenav li:not(.nav-btn-wrappr) a.router-link-exact-active {
         color: var(--pry-color);

@@ -1,12 +1,12 @@
 <template>
-    <form id="contact-form" action="#" class="cfs-block">
+    <form id="contact-form" action="#" class="cfs-block" data-aos="fade-up" data-aos-duration="500">
         <div class="input-field select-field">
           <label for="category">Category</label>
           <select id="category" name="category" v-model="category" required>
             <option value="" selected disabled>Select Category</option>
-            <option value="Business owners">Business owners</option>
-            <option value="Government and public institutions">Government & public institutions</option>
-            <option value="Investors and banks">Investors & banks</option>
+            <option value="Prospective Client">Prospective Client</option>
+            <option value="Realtor/Sales Consultant">Realtor/Sales Consultant</option>
+            <option value="Investors and banks">Investor</option>
             <option value="Others">Others</option>
           </select>
           <img src="~/assets/images/chevron-down.svg" alt="chevron-down" class="chevron-down">

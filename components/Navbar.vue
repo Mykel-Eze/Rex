@@ -56,7 +56,7 @@
                             </nuxt-link>
                         </li>
                         <li>
-                            <a href="#" class="rex-tv-btn flex-div btn" @click="scrollToTop()">
+                            <a href="https://youtube.com/@RealestateXplorer?si=fwNOqVK6Rye19R1T" target="_blank" rel="noopener noreferrer" class="rex-tv-btn flex-div btn">
                                 <img src="~/assets/images/youtube-icon.svg" alt="youtube-icon">
                                 <span>REXtv</span>
                             </a>
@@ -122,7 +122,7 @@
                     </nuxt-link>
                 </li>
                 <li class="nav-btn-wrappr">
-                    <a href="#" class="rex-tv-btn flex-div btn sidenav-close" @click="scrollToTop()">
+                    <a href="https://youtube.com/@RealestateXplorer?si=fwNOqVK6Rye19R1T" target="_blank" rel="noopener noreferrer" class="rex-tv-btn flex-div btn sidenav-close">
                         <img src="~/assets/images/youtube-icon.svg" alt="youtube-icon">
                         <span>REXtv</span>
                     </a>
@@ -133,7 +133,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="sidenav-footer">
+            <!-- <div class="sidenav-footer">
                 <div class="footer-social-wrapper">
                     <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
                         <img src="~/assets/images/twitter.svg" alt="twitter" class="social-icons">
@@ -145,7 +145,7 @@
                         <img src="~/assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </ul>
     </div>
 </template>

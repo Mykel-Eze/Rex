@@ -6,7 +6,7 @@
 
         <!---=== Property-Description Section ===--->
         <PropertyDescSection title="Discover the Heart of Tradition and Modernity in Ogun" img="/other-images/property-img.png">
-            Our Ogun properties are perfect for those who appreciate the balance of a culturally rich environment with modern
+            Our Ogun properties are perfect for those who appreciate the balance of a rich cultural heritage with modern
             living. These homes offer a unique lifestyle, surrounded by natural beauty and local charm.
         </PropertyDescSection>
         <!---=== end of Property-Description Section ===--->

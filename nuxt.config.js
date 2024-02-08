@@ -40,6 +40,7 @@ export default {
   css: [
     'aos/dist/aos.css',
     '@/assets/css/main.css',
+    'aos/dist/aos.css',
     'materialize-css/dist/css/materialize.min.css',
     '@/assets/css/fonts.css',
     '@/assets/css/styles.css',

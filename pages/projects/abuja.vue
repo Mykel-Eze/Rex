@@ -8,7 +8,7 @@
         <PropertyDescSection title="Elegance Meets Tranquility in Abuja" img="/other-images/property-img.png">
             Nestled in Nigeria's capital, our Abuja properties combine sleek, modern design with peaceful
             surroundings. Ideal for families and professionals, these properties promise a harmonious blend
-            of luxury and comfort.
+            of comfort and affordablity.
         </PropertyDescSection>
         <!---=== end of Property-Description Section ===--->
 

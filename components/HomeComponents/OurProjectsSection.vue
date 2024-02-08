@@ -5,9 +5,9 @@
                 <div class="our-projects-wrapper">
                     <div class="our-projects-txt-side">
                         <div class="section-sub-title">Our Projects</div>
-                        <div class="sub-title-2">Ìdùnú Òyó Farms and Resort</div>
+                        <div class="sub-title-2">Ìdùnú Òyó Farms & Resort</div>
                         <p class="section-desc-txt">
-                            Idunu Oyo Farms and Resort, our premier project, stands as a meticulously
+                            Ìdùnú Òyó Farms & Resort, our premier project, stands as a meticulously
                             planned agritourism venture sprawling across over 500 hectares in
                             Ado-Awaye, Iseyin, Oyo State. 
                         </p>
@@ -16,15 +16,15 @@
                         </div>
                     </div>
                     <div class="our-projects-img-side hidden-xs-sm">
-                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1">
-                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2">
-                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3">
+                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3" data-aos="fade-up" data-aos-duration="500">
                     </div>
 
                     <div class="our-projects-img-side visible-xs-sm">
-                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1 materialboxed">
-                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2 materialboxed">
-                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3 materialboxed">
+                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1 materialboxed" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2 materialboxed" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3 materialboxed" data-aos="fade-up" data-aos-duration="500">
                     </div>
                 </div>
             </div>

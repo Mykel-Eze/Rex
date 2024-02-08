@@ -4,15 +4,15 @@
         <div class="container">
             <div class="team-expertise-wrapper">
                 <div class="">
-                    <div class="team-extpertise-title">Team Expertise</div>
-                    <div class="section-sub-title">
+                    <div class="team-extpertise-title" data-aos="fade-up">Team Expertise</div>
+                    <div class="section-sub-title" data-aos="fade-up">
                         We have a seasoned team of professionals with
                         over 15years experience within the built industry
                     </div>
                     <div class="te-pictures-wrapper">
-                        <img src="~/assets/images/team-expertise-1.png" alt="team" class="te-picture">
-                        <img src="~/assets/images/team-expertise-2.png" alt="team" class="te-picture">
-                        <img src="~/assets/images/team-expertise-3.png" alt="team" class="te-picture">
+                        <img src="~/assets/images/team-expertise-1.png" alt="team" class="te-picture" data-aos="fade-up" data-aos-duration="500">
+                        <img src="~/assets/images/team-expertise-2.png" alt="team" class="te-picture" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="~/assets/images/team-expertise-3.png" alt="team" class="te-picture" data-aos="fade-up" data-aos-duration="1500">
                     </div>
                 </div>
             </div>

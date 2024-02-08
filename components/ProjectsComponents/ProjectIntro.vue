@@ -5,10 +5,10 @@
                 <div class="project-intro-wrapper">
                     <div class="project-intro-txt-side">
                         <div class="project-intro-title">
-                            Ìdùnú Òyó Farms and Resort
+                            Ìdùnú Òyó Farms & Resort
                         </div>
                         <div class="project-intro-desc">
-                            Idunu Oyo Farms and Resort, our premier project, stands as a meticulously planned agritourism
+                            Ìdùnú Òyó Farms & Resort, our premier project, stands as a meticulously planned agritourism
                             venture sprawling across over 500 hectares in Ado-Awaye, Iseyin, Oyo State. This initiative
                             offers an exceptional opportunity for investors keen on tapping into the lucrative agricultural
                             sector, providing a hassle-free investment experience uncommon in the industry.

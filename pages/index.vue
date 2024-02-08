@@ -12,6 +12,10 @@
     <ServicesSection />
     <!---=== end of Services Section ===--->
 
+    <!---=== Real-Estate-Development Section ===--->
+    <RealEstateDevSection />
+    <!---=== end of Real-Estate-Development Section ===--->
+
     <!---=== Our-Projects Section ===--->
     <OurProjectsSection />
     <!---=== end of Our-Projects Section ===--->
@@ -25,7 +29,7 @@
     <!---=== end of Get-Started Section ===--->
 
     <!---=== Testimonial Section ===--->
-    <TestimonialsSection />
+    <!-- <TestimonialsSection /> -->
     <!---=== end of Testimonial Section ===--->
 
     <!---=== AgentPortalSignupSection Section ===--->

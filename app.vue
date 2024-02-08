@@ -4,4 +4,12 @@
   </NuxtLayout>
 </template>
 
-<script></script>
+<script>
+import AOS from 'aos';
+
+export default {
+  mounted() {
+    AOS.init();
+  }
+}
+</script>

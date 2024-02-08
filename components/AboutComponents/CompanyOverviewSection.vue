@@ -3,7 +3,7 @@
     <div class="row">
         <div class="container">
             <div class="company-overview-wrapper">
-                <div class="co-txt-side">
+                <div class="co-txt-side" data-aos="fade-up">
                     <div class="co-txt-title">Company Overview</div>
                     <div class="co-txt-desc">
                         <p>

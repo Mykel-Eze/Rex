@@ -10,7 +10,7 @@
 
             <div class="member-txt-side">
                 <div class="container">
-                    <div class="member-role">CEO/MD:</div>
+                    <div class="member-role">MD/CEO:</div>
                     <div class="member-name">Mr Eyitayo Shiyanbola.</div>
                     <div class="member-desc">
                         Over 15 years’ experience in Real Estate practice/business in Nigeria.

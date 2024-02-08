@@ -6,13 +6,13 @@
                 <ul class="collapsible">
                     <li class="active">
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>What types of properties doesReal Estate Xxplorer offer?</span>
+                            <span>What types of properties does Realestate Xplorer Nig Ltd offer?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
                             <div class="faq-txt">
                                 <p>
-                                    Real Estate Xplorer specializes in a wide range of properties including residential, commercial, and
+                                    Realestate Xplorer Nig Ltd specializes in a wide range of properties including residential, commercial, and
                                     agricultural land across key locations in Nigeria, such as Lagos, Abuja, Ogun, and Oyo.
                                 </p>
                             </div>
@@ -49,7 +49,7 @@
                     </li>
                     <li>
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>Can Real Estate Xplorer assist with property development?</span>
+                            <span>Can Realestate Xplorer Nig Ltd assist with property development?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
@@ -63,7 +63,7 @@
                     </li>
                     <li>
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>What makes Real Estate Xplorer different from other real estate companies?</span>
+                            <span>What makes Realestate Xplorer Nig Ltd different from other real estate companies?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
@@ -78,13 +78,13 @@
                     </li>
                     <li>
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>Are there investment opportunities in the agricultural sector with Real Estate Xplorer?</span>
+                            <span>Are there investment opportunities in the agricultural sector with Realestate Xplorer Nig Ltd?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
                             <div class="faq-txt">
                                 <p>
-                                    Yes, our flagship project, Idunu Oyo Farms and Resort, offers investors the chance to invest 
+                                    Yes, our flagship project, Ìdùnú Òyó Farms & Resort, offers investors the chance to invest 
                                     in farmland, capitalizing on the growth potential of Nigeria's agricultural sector without 
                                     the typical operational challenges.
                                 </p>
@@ -93,7 +93,7 @@
                     </li>
                     <li>
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>How does Real Estate Xplorer ensure customer satisfaction?</span>
+                            <span>How does Realestate Xplorer Nig Ltd ensure customer satisfaction?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
@@ -122,7 +122,7 @@
                     </li>
                     <li>
                         <div class="collapsible-header flex-div justify-content-btw">
-                            <span>Can international clients invest in properties through Real Estate Xplorer?</span>
+                            <span>Can international clients invest in properties through Realestate Xplorer Nig Ltd?</span>
                             <img src="~/assets/images/arrow-down-2.svg" alt="arrow-down" class="down-arr">
                         </div>
                         <div class="collapsible-body">
@@ -142,8 +142,8 @@
                         <div class="collapsible-body">
                             <div class="faq-txt">
                                 <p>
-                                    *You can reach us via our website's contact form, email, or phone. Our team is ready to 
-                                    provide you with all the information you need and assist you with your
+                                    You can reach us via our website's contact form, email, or phone. Our team is ready to 
+                                    provide you with all the information you need.
                                 </p>
                             </div>
                         </div>
