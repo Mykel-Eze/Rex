@@ -111,6 +111,7 @@
                         </li>
                     </ul>
                 </li>
+                
                 <li>
                     <nuxt-link to="/projects" class="sidenav-close" @click="scrollToTop()">
                         <span>Our Projects</span>
