@@ -62,7 +62,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="rr-btn btn" @click="scrollToTop()">
+                            <a href="https://app.realestatexplorer.ng" class="rr-btn btn" @click="scrollToTop()">
                                 Realtors' Registration
                             </a>
                         </li>
@@ -111,7 +111,7 @@
                         </li>
                     </ul>
                 </li>
-                
+
                 <li>
                     <nuxt-link to="/projects" class="sidenav-close" @click="scrollToTop()">
                         <span>Our Projects</span>
@@ -129,7 +129,7 @@
                     </a>
                 </li>
                 <li class="nav-btn-wrappr">
-                    <a href="#" class="rr-btn btn sidenav-close" @click="scrollToTop()">
+                    <a href="https://app.realestatexplorer.ng" class="rr-btn btn sidenav-close" @click="scrollToTop()">
                         Realtors' Registration
                     </a>
                 </li>
