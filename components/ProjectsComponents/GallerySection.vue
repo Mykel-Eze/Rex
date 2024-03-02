@@ -54,12 +54,23 @@ export default {
     data() {
         return {
             images: [
-                { url: '/other-images/team-expertise-1.png' },
-                { url: '/other-images/team-expertise-2.png' },
-                { url: '/other-images/team-expertise-3.png' },
-                { url: '/other-images/team-expertise-1.png' },
-                { url: '/other-images/team-expertise-2.png' },
-                { url: '/other-images/team-expertise-3.png' },
+                { url: '/other-images/gallery/g-3.jpg' },
+                { url: '/other-images/gallery/g-4.jpg' },
+                { url: '/other-images/gallery/g-5.jpg' },
+                { url: '/other-images/gallery/g-6.jpg' },
+                { url: '/other-images/gallery/g-7.jpg' },
+                { url: '/other-images/gallery/g-8.jpg' },
+                { url: '/other-images/gallery/g-9.jpg' },
+                { url: '/other-images/gallery/g-10.jpg' },
+                { url: '/other-images/gallery/g-11.jpg' },
+                { url: '/other-images/gallery/g-12.jpg' },
+                { url: '/other-images/gallery/g-13.jpg' },
+                { url: '/other-images/gallery/g-14.jpg' },
+                { url: '/other-images/gallery/g-15.jpg' },
+                { url: '/other-images/gallery/g-16.jpg' },
+                { url: '/other-images/gallery/g-17.jpg' },
+                { url: '/other-images/gallery/g-18.jpg' },
+                { url: '/other-images/gallery/g-19.jpg' },
             ]
         };
     }
