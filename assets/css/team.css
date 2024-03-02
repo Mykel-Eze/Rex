@@ -85,6 +85,8 @@ section#team-members {
 }
 .member-desc {
     font-size: 20px;
+    max-height: 230px;
+    overflow: auto;
 }
 a.member-linkedin-wrapper {
     position: absolute;
