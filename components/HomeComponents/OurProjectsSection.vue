@@ -16,15 +16,15 @@
                         </div>
                     </div>
                     <div class="our-projects-img-side hidden-xs-sm">
-                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1" data-aos="fade-up" data-aos-duration="1500">
-                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3" data-aos="fade-up" data-aos-duration="500">
+                        <img src="~/assets/images/gallery/g-14.jpg" alt="our-project" class="op-img-1" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="~/assets/images/gallery/g-15.jpg" alt="our-project" class="op-img-2" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="~/assets/images/gallery/g-17.jpg" alt="our-project" class="op-img-3" data-aos="fade-up" data-aos-duration="500">
                     </div>
 
                     <div class="our-projects-img-side visible-xs-sm">
-                        <img src="~/assets/images/our-project-1.jpg" alt="our-project" class="op-img-1 materialboxed" data-aos="fade-up" data-aos-duration="1500">
-                        <img src="~/assets/images/our-project-2.jpg" alt="our-project" class="op-img-2 materialboxed" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="~/assets/images/our-project-3.png" alt="our-project" class="op-img-3 materialboxed" data-aos="fade-up" data-aos-duration="500">
+                        <img src="~/assets/images/gallery/g-14.jpg" alt="our-project" class="op-img-1 materialboxed" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="~/assets/images/gallery/g-15.jpg" alt="our-project" class="op-img-2 materialboxed" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="~/assets/images/gallery/g-17.jpg" alt="our-project" class="op-img-3 materialboxed" data-aos="fade-up" data-aos-duration="500">
                     </div>
                 </div>
             </div>
