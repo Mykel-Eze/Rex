@@ -7,7 +7,7 @@
               <img src="~/assets/images/woman-with-phone.png" alt="woman-with-phone" class="apss-img" data-aos="fade-up">
             </div>
             <div class="apss-link-side hover-scale">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://app.realestatexplorer.ng" target="_blank" rel="noopener noreferrer">
                 <img src="~/assets/images/agent-portal-image-2.png" alt="agent-portal-image" class="apps-link-img">
               </a>
             </div>
