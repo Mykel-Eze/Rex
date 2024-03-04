@@ -26,14 +26,14 @@
                     <div class="team-member-role">Operations Manager</div>
                 </div>
             </div>
-            <div class="team-members-block modal-trigger" data-target="Tobiloba-Shiyanbola" data-aos="fade-up">
+            <!-- <div class="team-members-block modal-trigger" data-target="Tobiloba-Shiyanbola" data-aos="fade-up">
                 <img src="~/assets/images/teams/team-member-4.jpg" alt="Tobiloba Shiyanbola" class="team-member-picture">
 
                 <div class="team-member-details">
                     <div class="team-member-name">Mr. Tobiloba Shiyanbola</div>
                     <div class="team-member-role">Brand and Communications Manager</div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="team-members-block modal-trigger" data-target="Agomoh-Victoria" data-aos="fade-up">
                 <img src="~/assets/images/teams/Agomoh-Victoria.jpg" alt="Agomoh Ogechi Victoria" class="team-member-picture">
