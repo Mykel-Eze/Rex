@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="project-intro-img-side">
-                        <img src="~/assets/images/projects-img.png" alt="project-intro-img" class="project-intro-img">
+                        <img src="~/assets/images/projects-img-2.png" alt="project-intro-img" class="project-intro-img">
                     </div>
                 </div>
             </div>
