@@ -111,6 +111,7 @@ button.submit-btn {
     font-family: var(--font-bold);
     border: none;
     cursor: pointer;
+    line-height: 62px;
 }
 
 button.submit-btn:hover {

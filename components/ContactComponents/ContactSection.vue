@@ -7,7 +7,10 @@
                         <div class="contact-form-header">
                             <div class="contact-form-title">Contact Form</div>
                         </div>
-                        <ContactForm whatsappNumber="2349062036663" />
+                        <ContactForm 
+                            whatsappNumber="2349062036663" 
+                            email-address="hello@realestatexplorer.ng"
+                        />
                     </div>
                     <div class="contact-details-side">
                         <div data-aos="fade-up" data-aos-duration="1000">
