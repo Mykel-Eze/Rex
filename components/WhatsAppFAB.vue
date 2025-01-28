@@ -33,11 +33,11 @@ export default {
     },
     message: {
       type: String,
-      default: 'Hello! I would like to know more information.'
+      default: "Hi! I'd like to learn more about your development projects and services."
     },
     tooltip: {
       type: String,
-      default: 'Chat with us on WhatsApp'
+      default: "Chat with us on WhatsApp"
     }
   },
   setup(props) {
